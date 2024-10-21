@@ -1,0 +1,7 @@
+1 - Na camada de rede, o pacote é chamado de datagrama. A principal diferença entre um roteador e um comutador de camada de enlace é que o roteador trabalha na camada de rede, encaminhando pacotes entre redes diferentes usando endereços IP, enquanto o comutador de enlace opera na camada 2, direcionando quadros dentro da mesma rede local com base nos endereços MAC.
+
+2 - Na rede de datagramas, as duas funções mais importantes são encaminhar os pacotes de um ponto a outro e rotear, ou seja, determinar o melhor caminho para esses pacotes. Já em uma rede com circuitos virtuais, além de encaminhar e rotear, há também a função de estabelecer um circuito virtual antes do envio de dados.
+
+3 - Roteamento é o processo de decidir qual caminho os pacotes devem seguir pela rede, enquanto repassar é simplesmente pegar um pacote e enviá-lo para a próxima etapa com base na tabela de encaminhamento.
+
+4 - Sim, tanto redes de datagramas quanto de circuitos virtuais usam tabelas de repasse. Na rede de datagramas, a tabela mapeia os endereços IP de destino para as saídas corretas. Na rede de circuitos virtuais, a tabela mapeia os identificadores do circuito virtual para as saídas corretas, seguindo um caminho estabelecido previamente.
